@@ -7,7 +7,7 @@ import FilterField from './Filter/Filter';
 export class App extends Component {
   state = {
     contacts: [],
-    name: '',
+    filter: '',
   };
 
   onNameSubmit = person => {
